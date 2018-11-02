@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/Projects/DEAProject/src/java/classes/Database.java</file>
+            <file>file:/D:/Projects/DEAProject/web/public/events.jsp</file>
+            <file>file:/D:/Projects/DEAProject/src/conf/MANIFEST.MF</file>
+            <file>file:/D:/Projects/DEAProject/src/java/servlets/AdminEditUser.java</file>
+            <file>file:/D:/Projects/DEAProject/src/java/classes/Event.java</file>
+            <file>file:/D:/Projects/DEAProject/web/public/index.jsp</file>
+            <file>file:/D:/Projects/DEAProject/src/java/servlets/Register.java</file>
+            <file>file:/D:/Projects/DEAProject/web/public/calander.html</file>
+            <file>file:/D:/Projects/DEAProject/src/java/servlets/IdeaHubAddNew.java</file>
+            <file>file:/D:/Projects/DEAProject/src/java/classes/IdeaHub.java</file>
+            <file>file:/D:/Projects/DEAProject/src/java/servlets/EventServelet.java</file>
+            <file>file:/D:/Projects/DEAProject/web/public/adminIndex.jsp</file>
+            <file>file:/D:/Projects/DEAProject/web/public/addEvent.jsp</file>
+            <file>file:/D:/Projects/DEAProject/src/java/classes/User.java</file>
+            <file>file:/D:/Projects/DEAProject/web/public/login.jsp</file>
+            <file>file:/D:/Projects/DEAProject/src/java/servlets/Login.java</file>
+            <file>file:/D:/Projects/DEAProject/web/public/ideaHubOne.jsp</file>
+            <file>file:/D:/Projects/DEAProject/web/public/ideaHub.jsp</file>
+            <file>file:/D:/Projects/DEAProject/src/java/servlets/AddEvent.java</file>
+            <file>file:/D:/Projects/DEAProject/web/public/profile.jsp</file>
+            <file>file:/D:/Projects/DEAProject/src/java/servlets/CalanderEvent.java</file>
+            <file>file:/D:/Projects/DEAProject/src/java/servlets/EditProfile.java</file>
+            <file>file:/D:/Projects/DEAProject/src/java/classes/Core.java</file>
+            <file>file:/D:/Projects/DEAProject/src/java/servlets/AdminApprove.java</file>
+            <file>file:/D:/Projects/DEAProject/src/java/servlets/TestServlet.java</file>
+            <file>file:/D:/Projects/DEAProject/src/java/classes/Test.java</file>
+            <file>file:/D:/Projects/DEAProject/web/includes/layout/nav.jsp</file>
+            <file>file:/D:/Projects/DEAProject/web/public/register.jsp</file>
+            <file>file:/D:/Projects/DEAProject/src/java/servlets/EditEvent.java</file>
+            <file>file:/D:/Projects/DEAProject/src/java/servlets/IdeaHubServlet.java</file>
+        </group>
+    </open-files>
+</project-private>

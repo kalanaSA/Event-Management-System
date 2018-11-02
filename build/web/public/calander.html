@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel='stylesheet' href='../assets/calander/fullcalendar.css' />
+    <script src='../assets/calander/lib/jquery.min.js'></script>
+    <script src='../assets/calander/lib/moment.min.js'></script>
+    <script src='../assets/calander/fullcalendar.js'></script>
+</head>
+<body>
+   <div class="container"><div id='calendar'></div></div>
+    
+</body>
+
+<script>
+                                    
+                                    $(document).ready(function() {
+ 
+ 
+ var calendar = $('#calendar').fullCalendar({
+  header: {
+   left: 'prev,next today',
+   center: 'title',
+   right: 'month,agendaWeek,agendaDay'
+  },
+  selectable: true,
+  selectHelper: true,
+  select: function(start, end, allDay) {
+   
+   calendar.fullCalendar('unselect');
+  },
+  editable: true,
+  
+  
+ });
+                                    });
+    
+    $.ajax({ type: "Post", url: "CalenderEvent",
+  data:{name:$("#Uname").val()},
+  cache:false,
+  success : function(data){
+   
+    var objArray=JSON.parse(data);
+     $.each(objArray, function(index,jsonObject){
+    
+        var subject = jsonObject.Description;  //the title of the event         
+     var dateStart = jsonObject.complDate;     // the day the event takes place
+     var events=new Array();   
+     event = new Object();     
+     event.title = subject;
+     event.start = dateStart;    // its a date string
+     //event.end = dateEnd;        // its a date string.
+     event.color = jsonObject.color;
+     event.allDay = false;
+           event.url="Calender_Add_Report.jsp";
+     events.push(event);
+     $('#calendar').fullCalendar('addEventSource',events);
+     
+     });
+     
+      var altField = $( ".selector" ).datepicker( "option", "altField" );
+     alert(altField);
+  }
+  });
+    
+    
+                                    
+                                    </script>    
+</html>
